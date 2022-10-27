@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tell.it</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tutbg">
+    <header>
+        <div class="main">
+        <nav id="navbar" >
+        <h4 class="logo" >tell.it</h4>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="active" ><a href="#">Tutorial</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="tutorial" data-text="tutorial..."><h1> TUTORIAL... </h1></div>
+        <div class="tut1"> <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque ipsum soluta magnam eligendi! Dolores.</h6></div>
+        <div class="ss1"><img class="img1" src="image/Screenshot-502.png" alt=""></div>
+
+        <div class="tut2"> <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque ipsum soluta magnam eligendi! Dolores.</h6></div>
+        <div class="ss2"><img class="img1" src="image/Screenshot-502.png" alt=""></div>
+
+        <div class="tut3"> <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque ipsum soluta magnam eligendi! Dolores.</h6></div>
+        <div class="ss3"><img class="img1" src="image/Screenshot-502.png" alt=""></div>
+
+        <div class="tut4"> <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque ipsum soluta magnam eligendi! Dolores.</h6></div>
+        <div class="ss4"><img class="img1" src="image/Screenshot-502.png" alt=""></div>
+
+        <div class="homepagetext"> <h6>READY TO USE THE SCRIPT...</h6></div>
+        <div class="tuthomepage"> <h6> <a href="index.html">Go back to Home page</a></h6></div>
+    </header>
+
+<script>
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
+
+    window.onscroll = function(){
+        if (window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+
+</script>
+</body>
+</html>

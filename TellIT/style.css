@@ -1,0 +1,543 @@
+@font-face {
+    font-family: '';
+    src: url('http://domain.example/fonts/font.ttf');
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Century Gothic; 
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover, a.active{
+    background-color: #fff;
+    color: black;
+}
+
+.logo{
+    /*display: inline-block;
+    margin-left: 25px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;*/
+
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    text-shadow: 
+    0 0 7px white,
+    0 0 10px white,
+    0 0 10px white,
+    0 0 21px #fffae4,
+    0 0 42px #fffae4,
+    0 0 82px #fffae4,
+    0 0 92px #fffae4,
+    0 0 102px #fffae4,
+    0 0 151x #fffae4;
+}
+
+h4{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1;
+    animation: glow 0.11s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes glow {
+    100%{
+        text-shadow: 
+        0 0 4px white,
+        0 0 11px white,
+        0 0 19px white,
+        0 0 40px #fffae4,
+        0 0 80px #fffae4,
+        0 0 90px #fffae4,
+        0 0 100px #fffae4,
+        0 0 150px #fffae4;
+
+    }
+
+    0%{
+        text-shadow: 
+        0 0 4px #fffae4de,
+        0 0 10px #fffae4de,
+        0 0 18px #fffae4de,
+        0 0 38px #fffae4de,
+        0 0 72px #fffae4df,
+        0 0 80px #fffae4de,
+        0 0 94px #fffae4de,
+        0 0 140px #fffae4db
+    }
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.title h1{
+    font-size: 70px;
+    -webkit-text-stroke: 0.06vw rgb(255, 255, 255);
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -500px 0;
+    animation: indextitle 5s linear infinite alternate;
+}
+
+
+
+@keyframes indextitle {
+    100% {
+        background-position: 0 0;
+}
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    transform: translate(-50%,-50%)
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    animation: TransitionIn 0.75s;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.description h6{
+    color: #fff;
+    font-size: 18px;
+    text-align-last: center;
+    animation: TransitionIn 0.75s;
+}
+
+.atag1{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.atag1:hover{
+    color: rgb(191, 191, 191);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.atag2{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.atag2:hover{
+    color: rgb(191, 191, 191);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+.about {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.about h1{
+    font-size: 70px;
+    -webkit-text-stroke: 0.06vw rgb(255, 255, 255);
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -500px 0;
+    animation: abouttitle 5s linear infinite alternate;
+}
+
+
+
+@keyframes abouttitle {
+    100% {
+        background-position: 0 0;
+}
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    animation: TransitionIn 0.75s;
+}
+  
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.774);
+}
+  
+.container1 {
+    padding: 2px 12px;
+}
+
+.container1 h4 b {
+    color: #fff;
+}
+
+.container1 p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container1 p a:hover {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    animation: TransitionIn 0.75s;
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.774);
+}
+  
+.container2 {
+    padding: 2px 12px;
+}
+
+.container2 h4 b {
+    color: #fff;
+}
+
+.container2 p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container2 p a:hover {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    animation: TransitionIn 0.75s;
+}
+
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.774);
+}
+  
+.container3 {
+    padding: 2px 12px;
+}
+
+.container3 h4 b {
+    color: #fff;
+}
+
+.container3 p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container3 p a:hover {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    animation: TransitionIn 0.75s;
+}
+
+.card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.774);
+}
+  
+.container4 {
+    padding: 2px 12px;
+}
+
+.container4 h4 b {
+    color: #fff;
+}
+
+.container4 p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container4 p a:hover {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.aboutpara{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.aboutpara{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+    
+}
+
+.about{
+    top: 30%;
+}
+
+.tutorial{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tutorial h1{
+    font-size: 70px;
+    -webkit-text-stroke: 0.06vw rgb(255, 255, 255);
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -500px 0;
+    animation: tuttitle 5s linear infinite alternate;
+}
+
+
+
+@keyframes tuttitle {
+    100% {
+        background-position: 0 0;
+}
+}
+
+.tut1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tut1 h6{
+    color: #fff;
+    font-size: 18px;
+    text-align-last: center;
+    animation: TransitionIn 0.75s;
+}
+
+.ss1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tut2{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tut2 h6{
+    color: #fff;
+    font-size: 18px;
+    text-align-last: center;
+    animation: TransitionIn 0.75s;
+}
+
+.ss2{
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tut3{
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tut3 h6{
+    color: #fff;
+    font-size: 18px;
+    text-align-last: center;
+    animation: TransitionIn 0.75s;
+}
+
+.ss3{
+    position: absolute;
+    top: 235%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tut4{
+    position: absolute;
+    top: 275%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tut4 h6{
+    color: #fff;
+    font-size: 18px;
+    text-align-last: center;
+    animation: TransitionIn 0.75s;
+}
+
+.ss4{
+    position: absolute;
+    top: 310%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tuthomepage{
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.tuthomepage h6 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.tuthomepage h6 a:hover{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.homepagetext{
+    position: absolute;
+    top: 345%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.homepagetext h6{
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke: 0.06vw rgb(255, 255, 255);
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -500px 0;
+    animation: tuttitle 5s linear infinite alternate;
+}
+
+@keyframes TransitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.tutbg{
+    background: #000;
+}
