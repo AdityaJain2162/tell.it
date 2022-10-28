@@ -38,7 +38,11 @@ ul li a{
 ul li a:hover, a.active{
     background-color: #fff;
     color: black;
+    letter-spacing: 0.10em;
+    background: var(--clr);
+    box-shadow: 0 0 25px var(--clr);
 }
+
 
 .logo{
     /*display: inline-block;
@@ -155,7 +159,11 @@ h3{
 .btn:hover{
     background-color: #fff;
     color: black;
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    box-shadow: 0 0 30px var(--clr);
 }
+
 
 .description{
     position: absolute;
@@ -351,6 +359,93 @@ ul li.active a{
 .container4 p a:hover {
     color: rgb(88, 88, 88);
     text-decoration: none;
+}
+
+.bottom-menu{
+    position: absolute;
+    top: 90%;
+    left: 52%;
+    
+}
+.discord-logo {
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin: 2px;
+}
+
+.discord-logo:hover{
+    height: 55px;
+    width: 55px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(201, 201, 201);
+}
+
+.linkden-logo {
+    margin: 2px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: -115%;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.linkden-logo:hover{
+    height: 55px;
+    width: 55px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(201, 201, 201);
+}
+
+.git-logo {
+    margin: 2px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: -230%;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.git-logo:hover{
+    height: 55px;
+    width: 55px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(201, 201, 201);
 }
 
 .aboutpara{
