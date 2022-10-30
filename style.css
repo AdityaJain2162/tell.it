@@ -3,11 +3,13 @@
     src: url('http://domain.example/fonts/font.ttf');
 }
 
+
 *{
    margin: 0;
    padding: 0;
    font-family: Century Gothic; 
 }
+
 
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/background.png);
@@ -16,16 +18,21 @@ header{
     background-position: center;
 }
 
+
 ul{
     list-style-type: none;
     float: right;
     margin-top: 25px;
+
 }
+
 
 ul li{
     display: inline-block;
 
+
 }
+
 
 ul li a{
     text-decoration: none;
@@ -35,6 +42,7 @@ ul li a{
     transition: 0.6s ease;
 }
 
+
 ul li a:hover, a.active{
     background-color: #fff;
     color: black;
@@ -42,6 +50,7 @@ ul li a:hover, a.active{
     background: var(--clr);
     box-shadow: 0 0 25px var(--clr);
 }
+
 
 
 .logo{
@@ -143,7 +152,7 @@ h3{
 .button{
     position: absolute;
     top: 60%;
-    left: 47%;
+    left: 50%;
     transform: translate(-50%,-50%)
 }
 
@@ -154,6 +163,7 @@ h3{
     text-decoration: none;
     transition: 0.6s ease;
     animation: TransitionIn 0.75s;
+    gap: 20px;
 }
 
 .btn:hover{
@@ -258,6 +268,7 @@ ul li.active a{
 .container1 p a {
     color: #fff;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .container1 p a:hover {
@@ -279,20 +290,21 @@ ul li.active a{
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.774);
 }
   
-.container2 {
+.container01 {
     padding: 2px 12px;
 }
 
-.container2 h4 b {
+.container01 h4 b {
     color: #fff;
 }
 
-.container2 p a {
+.container01 p a {
     color: #fff;
     text-decoration: none;
+    font-size: 12px;
 }
 
-.container2 p a:hover {
+.container01 p a:hover {
     color: rgb(88, 88, 88);
     text-decoration: none;
 }
@@ -322,6 +334,7 @@ ul li.active a{
 .container3 p a {
     color: #fff;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .container3 p a:hover {
@@ -354,6 +367,7 @@ ul li.active a{
 .container4 p a {
     color: #fff;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .container4 p a:hover {
@@ -602,12 +616,14 @@ ul li.active a{
     padding-bottom: 50px;
 }
 
+
 .homepagetext{
     position: absolute;
     top: 345%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
+
 
 .homepagetext h6{
     color: white;
@@ -620,6 +636,7 @@ ul li.active a{
     background-position: -500px 0;
     animation: tuttitle 5s linear infinite alternate;
 }
+
 
 @keyframes TransitionIn {
     from{
@@ -636,3 +653,160 @@ ul li.active a{
 .tutbg{
     background: #000;
 }
+
+
+
+.tradingview-widget-container{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
+.tradingview-widget-container1{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
+
+.live-bg{
+    background-color: #000;
+}
+
+
+.container2{
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 490px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+  
+
+h1{
+    color: #000000;
+    margin-left: 72px;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+}
+  
+  
+.container2 .box{
+    width: 100%;
+    display: flex;
+}
+ 
+
+.box div{
+    width: 100%;
+}
+ 
+
+select{
+    width: 95%;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: #000000;
+    outline: none;
+    color: rgb(255, 255, 255);
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}
+  
+  
+input{
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    border: none;
+    background: #dadada;
+    outline: none;
+    padding: 0 0.2em;
+}
+  
+  
+.btncon{
+    width: 98%;
+    height: 40px;
+    background: #000000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.8em 0;
+}
+
+
+.btncon:hover{
+    background-color: rgb(74, 74, 74);
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+
+ 
+.main ul li a{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main ul li ul.dropdown li{
+    display: block;
+}
+
+
+.main ul li ul.dropdown{
+    width: 100%;
+    z-index: 999;
+    display: none;
+    margin-top: 10px;
+}
+
+
+.main ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+.pricedropdown{
+    top: 80px;
+}
+
+.home_btn{
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    transform: translate(-50%,-50%)
+
+}
+
+
+.home_btn a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.home_btn a:hover{
+    color: rgb(76, 76, 76);
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
