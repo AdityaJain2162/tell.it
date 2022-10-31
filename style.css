@@ -655,7 +655,6 @@ ul li.active a{
 }
 
 
-
 .tradingview-widget-container{
     position: absolute;
     top: 55%;
@@ -809,4 +808,3 @@ input{
     letter-spacing: 1px;
     transition: 0.3s;
 }
-
