@@ -22,9 +22,9 @@ The Real-Time Stock and Cryptocurrency Price Alert System is a powerful tool des
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/stock-crypto-alert.git`
+1. Clone the repository: `git clone https://github.com/AdityaJain2162/tell.it.git`
 
-2. Navigate to the project directory: `cd stock-crypto-alert`
+2. Navigate to the project directory: `cd tell.it`
 
 3. Install dependencies for the website:
 
